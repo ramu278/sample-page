@@ -5,6 +5,10 @@ body{
     padding:0;
     font-family: 'Roboto', sans-serif;
     text-align:center;
+    font-weight:500;
+}
+b,strong{
+    font-weight:500;
 }
 div.main-wraper{
     padding-bottom:64px;
@@ -37,6 +41,27 @@ a{
 }
 a:hover{
     text-decoration:none;
+}
+.privacy-policy{
+    text-align:left;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 15px;
+}
+.privacy-policy p,.privacy-policy li{
+    font-size:16px;
+    line-height:24px;
+    font-weight:300;
+}
+.privacy-policy i{
+    font-style: italic;
+    text-decoration:underline;
+    color:#e4e4e4;
+    font-size:16px;
+}
+.privacy-policy ol{
+    list-style-type:lower-roman;
 }
 @media(max-width:992px){
     div img:nth-child(2),div img:nth-child(4), div img:last-child{
